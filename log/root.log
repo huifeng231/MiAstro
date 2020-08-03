@@ -1,0 +1,76 @@
+INFO 2019-11-29 10:34:06,953 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:34:06,954 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 10:34:06,957 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 10:34:11,590 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:34:11,590 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 10:34:11,592 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 10:34:17,906 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:34:17,908 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 10:34:17,911 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 10:39:26,883 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:39:26,885 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 10:39:26,888 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 10:41:53,478 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:41:53,480 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+ERROR 2019-11-29 10:41:53,483 decorators.py[line:99] MotorCollection object is not callable. If you meant to call the 'find' method on a MotorCollection object it is failing because no such method exists.
+INFO 2019-11-29 10:41:53,484 utils.py[line:189] Rjson {'code': 500, 'msg': 'err ', 'data': {}}
+INFO 2019-11-29 10:43:00,220 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:43:00,222 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+ERROR 2019-11-29 10:43:00,225 decorators.py[line:99] object AsyncIOMotorCursor can't be used in 'await' expression
+INFO 2019-11-29 10:43:00,225 utils.py[line:189] Rjson {'code': 500, 'msg': 'err ', 'data': {}}
+INFO 2019-11-29 10:43:32,562 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:43:32,564 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 10:43:32,601 fb_api.py[line:76] a_list
+INFO 2019-11-29 10:43:32,601 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 10:45:19,419 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:45:19,421 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 10:45:19,450 fb_api.py[line:76] a_list
+INFO 2019-11-29 10:45:19,450 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 10:46:04,991 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:46:04,993 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+ERROR 2019-11-29 10:46:04,996 decorators.py[line:99] object AsyncIOMotorCursor can't be used in 'await' expression
+INFO 2019-11-29 10:46:04,996 utils.py[line:189] Rjson {'code': 500, 'msg': 'err ', 'data': {}}
+INFO 2019-11-29 10:46:56,379 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:46:56,380 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 10:46:56,410 fb_api.py[line:76] a_list
+INFO 2019-11-29 10:46:56,410 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 10:47:11,794 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:47:11,795 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 10:47:11,821 fb_api.py[line:76] a_list {'_id': ObjectId('5dc51b8478ac526a78469610'), 'c_user': '100021780733863', 'dart': '_MS_XadKWWSbJOMIAh4nUkae', 'fr': '1Iv0ReW1hYCWKLcii.AWXHh9_XchPliTKRIRrWnq9JwJ0.Bdv8T8.oo.AAA.0.0.Bdv8o4.AWXaxXQ-', 'locale': 'zh_CN', 'noscript': '1', 'sb': '_MS_XWT-GCHjoQIBpAadRVK8', 'xs': '35%3AN3o73yHPuwiXrg%3A2%3A1572850232%3A2362%3A12591'}
+INFO 2019-11-29 10:47:11,821 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 10:47:33,378 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:47:33,380 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+ERROR 2019-11-29 10:47:33,383 decorators.py[line:99] object AsyncIOMotorCursor can't be used in 'await' expression
+INFO 2019-11-29 10:47:33,384 utils.py[line:189] Rjson {'code': 500, 'msg': 'err ', 'data': {}}
+INFO 2019-11-29 10:47:53,390 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:47:53,391 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+ERROR 2019-11-29 10:47:53,395 decorators.py[line:99] to_list() missing 1 required positional argument: 'length'
+INFO 2019-11-29 10:47:53,395 utils.py[line:189] Rjson {'code': 500, 'msg': 'err ', 'data': {}}
+INFO 2019-11-29 10:48:07,804 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:48:07,806 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 10:48:07,834 fb_api.py[line:76] a_list [{'_id': ObjectId('5dc51b8478ac526a78469610'), 'c_user': '100021780733863', 'dart': '_MS_XadKWWSbJOMIAh4nUkae', 'fr': '1Iv0ReW1hYCWKLcii.AWXHh9_XchPliTKRIRrWnq9JwJ0.Bdv8T8.oo.AAA.0.0.Bdv8o4.AWXaxXQ-', 'locale': 'zh_CN', 'noscript': '1', 'sb': '_MS_XWT-GCHjoQIBpAadRVK8', 'xs': '35%3AN3o73yHPuwiXrg%3A2%3A1572850232%3A2362%3A12591'}]
+INFO 2019-11-29 10:48:07,834 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 10:49:13,851 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:49:13,852 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 10:49:13,880 fb_api.py[line:75] a_list [{'_id': ObjectId('5dc51b8478ac526a78469610'), 'c_user': '100021780733863', 'dart': '_MS_XadKWWSbJOMIAh4nUkae', 'fr': '1Iv0ReW1hYCWKLcii.AWXHh9_XchPliTKRIRrWnq9JwJ0.Bdv8T8.oo.AAA.0.0.Bdv8o4.AWXaxXQ-', 'locale': 'zh_CN', 'noscript': '1', 'sb': '_MS_XWT-GCHjoQIBpAadRVK8', 'xs': '35%3AN3o73yHPuwiXrg%3A2%3A1572850232%3A2362%3A12591'}]
+INFO 2019-11-29 10:49:13,881 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 10:49:33,813 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:49:33,814 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 10:49:33,843 fb_api.py[line:75] a_list [{'_id': ObjectId('5dc51b8478ac526a78469610'), 'c_user': '100021780733863', 'dart': '_MS_XadKWWSbJOMIAh4nUkae', 'fr': '1Iv0ReW1hYCWKLcii.AWXHh9_XchPliTKRIRrWnq9JwJ0.Bdv8T8.oo.AAA.0.0.Bdv8o4.AWXaxXQ-', 'locale': 'zh_CN', 'noscript': '1', 'sb': '_MS_XWT-GCHjoQIBpAadRVK8', 'xs': '35%3AN3o73yHPuwiXrg%3A2%3A1572850232%3A2362%3A12591'}]
+INFO 2019-11-29 10:49:33,843 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 10:49:49,227 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 10:49:49,229 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 10:49:49,257 fb_api.py[line:75] a_list {'_id': ObjectId('5dc51b8478ac526a78469610'), 'c_user': '100021780733863', 'dart': '_MS_XadKWWSbJOMIAh4nUkae', 'fr': '1Iv0ReW1hYCWKLcii.AWXHh9_XchPliTKRIRrWnq9JwJ0.Bdv8T8.oo.AAA.0.0.Bdv8o4.AWXaxXQ-', 'locale': 'zh_CN', 'noscript': '1', 'sb': '_MS_XWT-GCHjoQIBpAadRVK8', 'xs': '35%3AN3o73yHPuwiXrg%3A2%3A1572850232%3A2362%3A12591'}
+INFO 2019-11-29 10:49:49,257 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 11:03:15,440 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 11:03:15,441 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 11:03:15,472 fb_api.py[line:78] a {'_id': '100021780733863', 'c_user': '100021780733863', 'dart': '_MS_XadKWWSbJOMIAh4nUkae', 'fr': '1Iv0ReW1hYCWKLcii.AWXHh9_XchPliTKRIRrWnq9JwJ0.Bdv8T8.oo.AAA.0.0.Bdv8o4.AWXaxXQ-', 'locale': 'zh_CN', 'noscript': '1', 'sb': '_MS_XWT-GCHjoQIBpAadRVK8', 'xs': '35%3AN3o73yHPuwiXrg%3A2%3A1572850232%3A2362%3A12591'}
+INFO 2019-11-29 11:03:15,472 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 13:00:48,994 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 13:00:48,994 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 13:00:48,998 fb_api.py[line:78] a {'_id': '100021780733863', 'c_user': '100021780733863', 'dart': '_MS_XadKWWSbJOMIAh4nUkae', 'fr': '1Iv0ReW1hYCWKLcii.AWXHh9_XchPliTKRIRrWnq9JwJ0.Bdv8T8.oo.AAA.0.0.Bdv8o4.AWXaxXQ-', 'locale': 'zh_CN', 'noscript': '1', 'sb': '_MS_XWT-GCHjoQIBpAadRVK8', 'xs': '35%3AN3o73yHPuwiXrg%3A2%3A1572850232%3A2362%3A12591'}
+INFO 2019-11-29 13:00:48,999 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
+INFO 2019-11-29 14:24:58,880 decorators.py[line:74] request.path:/api/facebook/config
+INFO 2019-11-29 14:24:58,882 decorators.py[line:95] request_params {'ip': '', 'ssr': '2121122114'}
+INFO 2019-11-29 14:24:58,906 fb_api.py[line:77] a {'_id': '100021780733863', 'c_user': '100021780733863', 'dart': '_MS_XadKWWSbJOMIAh4nUkae', 'fr': '1Iv0ReW1hYCWKLcii.AWXHh9_XchPliTKRIRrWnq9JwJ0.Bdv8T8.oo.AAA.0.0.Bdv8o4.AWXaxXQ-', 'locale': 'zh_CN', 'noscript': '1', 'sb': '_MS_XWT-GCHjoQIBpAadRVK8', 'xs': '35%3AN3o73yHPuwiXrg%3A2%3A1572850232%3A2362%3A12591'}
+INFO 2019-11-29 14:24:58,907 utils.py[line:189] Rjson {'code': 0, 'msg': 'success', 'data': {'status': 0}}
