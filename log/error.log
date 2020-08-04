@@ -9966,3 +9966,674 @@ ModuleNotFoundError: No module named 'Crypto'
 [2020-08-03 17:20:09 +0800] [13715] [ERROR] Retrying in 1 second.
 [2020-08-03 17:20:10 +0800] [13715] [ERROR] Can't connect to ('0.0.0.0', 8001)
 [2020-08-03 17:20:19 +0800] [13688] [INFO] Shutting down: Master
+[2020-08-04 10:08:37 +0800] [2165] [INFO] Starting gunicorn 20.0.4
+[2020-08-04 10:08:37 +0800] [2165] [INFO] Listening at: http://0.0.0.0:8001 (2165)
+[2020-08-04 10:08:37 +0800] [2165] [INFO] Using worker: sanic.worker.GunicornWorker
+[2020-08-04 10:08:37 +0800] [2168] [INFO] Booting worker with pid: 2168
+[2020-08-04 10:08:37 +0800] [2169] [INFO] Booting worker with pid: 2169
+[2020-08-04 10:08:37 +0800] [2170] [INFO] Booting worker with pid: 2170
+[2020-08-04 10:08:38 +0800] [2171] [INFO] Booting worker with pid: 2171
+[2020-08-04 10:10:01 +0800] [2165] [INFO] Handling signal: int
+[2020-08-04 10:10:01 +0800] [2171] [INFO] Stopping server: 2171, connections: 0
+[2020-08-04 10:10:01 +0800] [2171] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:10:01 +0800] [2171] [INFO] Worker exiting (pid: 2171)
+[2020-08-04 10:10:02 +0800] [2168] [INFO] Stopping server: 2168, connections: 0
+[2020-08-04 10:10:02 +0800] [2168] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:10:02 +0800] [2168] [INFO] Worker exiting (pid: 2168)
+[2020-08-04 10:10:02 +0800] [2169] [INFO] Stopping server: 2169, connections: 0
+[2020-08-04 10:10:02 +0800] [2169] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:10:02 +0800] [2169] [INFO] Worker exiting (pid: 2169)
+[2020-08-04 10:10:02 +0800] [2170] [INFO] Stopping server: 2170, connections: 1
+[2020-08-04 10:10:02 +0800] [2170] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:10:02 +0800] [2170] [INFO] Worker exiting (pid: 2170)
+[2020-08-04 10:10:03 +0800] [2165] [INFO] Shutting down: Master
+[2020-08-04 10:10:17 +0800] [2240] [INFO] Starting gunicorn 20.0.4
+[2020-08-04 10:10:17 +0800] [2240] [INFO] Listening at: http://0.0.0.0:8001 (2240)
+[2020-08-04 10:10:17 +0800] [2240] [INFO] Using worker: sanic.worker.GunicornWorker
+[2020-08-04 10:10:17 +0800] [2244] [INFO] Booting worker with pid: 2244
+[2020-08-04 10:10:17 +0800] [2245] [INFO] Booting worker with pid: 2245
+[2020-08-04 10:10:17 +0800] [2246] [INFO] Booting worker with pid: 2246
+[2020-08-04 10:10:17 +0800] [2247] [INFO] Booting worker with pid: 2247
+[2020-08-04 10:11:03 +0800] [2240] [INFO] Handling signal: int
+[2020-08-04 10:11:03 +0800] [2244] [INFO] Stopping server: 2244, connections: 0
+[2020-08-04 10:11:03 +0800] [2244] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:11:03 +0800] [2244] [INFO] Worker exiting (pid: 2244)
+[2020-08-04 10:11:03 +0800] [2245] [INFO] Stopping server: 2245, connections: 1
+[2020-08-04 10:11:03 +0800] [2245] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:11:03 +0800] [2246] [INFO] Stopping server: 2246, connections: 0
+[2020-08-04 10:11:03 +0800] [2246] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:11:03 +0800] [2246] [INFO] Worker exiting (pid: 2246)
+[2020-08-04 10:11:04 +0800] [2245] [INFO] Worker exiting (pid: 2245)
+[2020-08-04 10:11:04 +0800] [2247] [INFO] Stopping server: 2247, connections: 0
+[2020-08-04 10:11:04 +0800] [2247] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:11:04 +0800] [2247] [INFO] Worker exiting (pid: 2247)
+[2020-08-04 10:11:04 +0800] [2240] [INFO] Shutting down: Master
+[2020-08-04 10:11:41 +0800] [2306] [INFO] Starting gunicorn 20.0.4
+[2020-08-04 10:11:41 +0800] [2306] [INFO] Listening at: http://0.0.0.0:8000 (2306)
+[2020-08-04 10:11:41 +0800] [2306] [INFO] Using worker: sanic.worker.GunicornWorker
+[2020-08-04 10:11:41 +0800] [2313] [INFO] Booting worker with pid: 2313
+[2020-08-04 10:11:41 +0800] [2314] [INFO] Booting worker with pid: 2314
+[2020-08-04 10:11:41 +0800] [2315] [INFO] Booting worker with pid: 2315
+[2020-08-04 10:11:41 +0800] [2316] [INFO] Booting worker with pid: 2316
+[2020-08-04 10:16:20 +0800] [2306] [INFO] Handling signal: int
+[2020-08-04 10:16:20 +0800] [2315] [INFO] Stopping server: 2315, connections: 0
+[2020-08-04 10:16:20 +0800] [2315] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:16:20 +0800] [2314] [INFO] Stopping server: 2314, connections: 0
+[2020-08-04 10:16:20 +0800] [2314] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:16:20 +0800] [2315] [INFO] Worker exiting (pid: 2315)
+[2020-08-04 10:16:20 +0800] [2313] [INFO] Stopping server: 2313, connections: 0
+[2020-08-04 10:16:20 +0800] [2314] [INFO] Worker exiting (pid: 2314)
+[2020-08-04 10:16:20 +0800] [2313] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:16:20 +0800] [2313] [INFO] Worker exiting (pid: 2313)
+[2020-08-04 10:16:20 +0800] [2316] [INFO] Stopping server: 2316, connections: 0
+[2020-08-04 10:16:20 +0800] [2316] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:16:20 +0800] [2316] [INFO] Worker exiting (pid: 2316)
+[2020-08-04 10:16:21 +0800] [2306] [INFO] Shutting down: Master
+[2020-08-04 10:16:24 +0800] [2513] [INFO] Starting gunicorn 20.0.4
+[2020-08-04 10:16:24 +0800] [2513] [INFO] Listening at: http://0.0.0.0:8001 (2513)
+[2020-08-04 10:16:24 +0800] [2513] [INFO] Using worker: sanic.worker.GunicornWorker
+[2020-08-04 10:16:24 +0800] [2517] [INFO] Booting worker with pid: 2517
+[2020-08-04 10:16:24 +0800] [2518] [INFO] Booting worker with pid: 2518
+[2020-08-04 10:16:24 +0800] [2519] [INFO] Booting worker with pid: 2519
+[2020-08-04 10:16:24 +0800] [2520] [INFO] Booting worker with pid: 2520
+[2020-08-04 10:16:24 +0800] [2517] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 11, in <module>
+    from views import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/__init__.py", line 1, in <module>
+    from .fb_api import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/fb_api.py", line 79, in <module>
+    @app.route('/')
+NameError: name 'app' is not defined
+[2020-08-04 10:16:24 +0800] [2517] [INFO] Worker exiting (pid: 2517)
+[2020-08-04 10:16:24 +0800] [2519] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 11, in <module>
+    from views import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/__init__.py", line 1, in <module>
+    from .fb_api import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/fb_api.py", line 79, in <module>
+    @app.route('/')
+NameError: name 'app' is not defined
+[2020-08-04 10:16:24 +0800] [2518] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 11, in <module>
+    from views import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/__init__.py", line 1, in <module>
+    from .fb_api import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/fb_api.py", line 79, in <module>
+    @app.route('/')
+NameError: name 'app' is not defined
+[2020-08-04 10:16:24 +0800] [2519] [INFO] Worker exiting (pid: 2519)
+[2020-08-04 10:16:24 +0800] [2518] [INFO] Worker exiting (pid: 2518)
+[2020-08-04 10:16:24 +0800] [2520] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 11, in <module>
+    from views import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/__init__.py", line 1, in <module>
+    from .fb_api import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/fb_api.py", line 79, in <module>
+    @app.route('/')
+NameError: name 'app' is not defined
+[2020-08-04 10:16:24 +0800] [2520] [INFO] Worker exiting (pid: 2520)
+[2020-08-04 10:16:24 +0800] [2513] [INFO] Shutting down: Master
+[2020-08-04 10:16:24 +0800] [2513] [INFO] Reason: Worker failed to boot.
+[2020-08-04 10:17:28 +0800] [2552] [INFO] Starting gunicorn 20.0.4
+[2020-08-04 10:17:28 +0800] [2552] [INFO] Listening at: http://0.0.0.0:8001 (2552)
+[2020-08-04 10:17:28 +0800] [2552] [INFO] Using worker: sanic.worker.GunicornWorker
+[2020-08-04 10:17:28 +0800] [2555] [INFO] Booting worker with pid: 2555
+[2020-08-04 10:17:28 +0800] [2556] [INFO] Booting worker with pid: 2556
+[2020-08-04 10:17:28 +0800] [2557] [INFO] Booting worker with pid: 2557
+[2020-08-04 10:17:28 +0800] [2558] [INFO] Booting worker with pid: 2558
+[2020-08-04 10:17:29 +0800] [2555] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 11, in <module>
+    from views import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/__init__.py", line 1, in <module>
+    from .fb_api import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/fb_api.py", line 79, in <module>
+    @app.route('/')
+NameError: name 'app' is not defined
+[2020-08-04 10:17:29 +0800] [2555] [INFO] Worker exiting (pid: 2555)
+[2020-08-04 10:17:29 +0800] [2556] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 11, in <module>
+    from views import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/__init__.py", line 1, in <module>
+    from .fb_api import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/fb_api.py", line 79, in <module>
+    @app.route('/')
+NameError: name 'app' is not defined
+[2020-08-04 10:17:29 +0800] [2556] [INFO] Worker exiting (pid: 2556)
+[2020-08-04 10:17:29 +0800] [2557] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 11, in <module>
+    from views import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/__init__.py", line 1, in <module>
+    from .fb_api import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/fb_api.py", line 79, in <module>
+    @app.route('/')
+NameError: name 'app' is not defined
+[2020-08-04 10:17:29 +0800] [2557] [INFO] Worker exiting (pid: 2557)
+[2020-08-04 10:17:29 +0800] [2558] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 11, in <module>
+    from views import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/__init__.py", line 1, in <module>
+    from .fb_api import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/fb_api.py", line 79, in <module>
+    @app.route('/')
+NameError: name 'app' is not defined
+[2020-08-04 10:17:29 +0800] [2558] [INFO] Worker exiting (pid: 2558)
+[2020-08-04 10:18:23 +0800] [2592] [INFO] Starting gunicorn 20.0.4
+[2020-08-04 10:18:23 +0800] [2592] [INFO] Listening at: http://0.0.0.0:8001 (2592)
+[2020-08-04 10:18:23 +0800] [2592] [INFO] Using worker: sanic.worker.GunicornWorker
+[2020-08-04 10:18:23 +0800] [2597] [INFO] Booting worker with pid: 2597
+[2020-08-04 10:18:23 +0800] [2598] [INFO] Booting worker with pid: 2598
+[2020-08-04 10:18:23 +0800] [2599] [INFO] Booting worker with pid: 2599
+[2020-08-04 10:18:23 +0800] [2600] [INFO] Booting worker with pid: 2600
+[2020-08-04 10:18:24 +0800] [2597] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 11, in <module>
+    from views import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/__init__.py", line 1, in <module>
+    from .fb_api import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/fb_api.py", line 79, in <module>
+    @app.route('/')
+NameError: name 'app' is not defined
+[2020-08-04 10:18:24 +0800] [2597] [INFO] Worker exiting (pid: 2597)
+[2020-08-04 10:18:24 +0800] [2598] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 11, in <module>
+    from views import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/__init__.py", line 1, in <module>
+    from .fb_api import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/fb_api.py", line 79, in <module>
+    @app.route('/')
+NameError: name 'app' is not defined
+[2020-08-04 10:18:24 +0800] [2598] [INFO] Worker exiting (pid: 2598)
+[2020-08-04 10:18:24 +0800] [2599] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 11, in <module>
+    from views import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/__init__.py", line 1, in <module>
+    from .fb_api import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/fb_api.py", line 79, in <module>
+    @app.route('/')
+NameError: name 'app' is not defined
+[2020-08-04 10:18:24 +0800] [2599] [INFO] Worker exiting (pid: 2599)
+[2020-08-04 10:18:24 +0800] [2600] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 11, in <module>
+    from views import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/__init__.py", line 1, in <module>
+    from .fb_api import user_bp
+  File "/Users/dong/Desktop/MiAstro/views/fb_api.py", line 79, in <module>
+    @app.route('/')
+NameError: name 'app' is not defined
+[2020-08-04 10:18:24 +0800] [2600] [INFO] Worker exiting (pid: 2600)
+[2020-08-04 10:19:01 +0800] [2627] [INFO] Starting gunicorn 20.0.4
+[2020-08-04 10:19:01 +0800] [2627] [INFO] Listening at: http://0.0.0.0:8001 (2627)
+[2020-08-04 10:19:01 +0800] [2627] [INFO] Using worker: sanic.worker.GunicornWorker
+[2020-08-04 10:19:01 +0800] [2633] [INFO] Booting worker with pid: 2633
+[2020-08-04 10:19:01 +0800] [2634] [INFO] Booting worker with pid: 2634
+[2020-08-04 10:19:01 +0800] [2635] [INFO] Booting worker with pid: 2635
+[2020-08-04 10:19:02 +0800] [2636] [INFO] Booting worker with pid: 2636
+[2020-08-04 10:19:02 +0800] [2633] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 60, in <module>
+    @app.route('/')
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/app.py", line 198, in response
+    "in the {0}() route?".format(handler.__name__)
+ValueError: Required parameter `request` missing in the hello_world() route?
+[2020-08-04 10:19:02 +0800] [2633] [INFO] Worker exiting (pid: 2633)
+[2020-08-04 10:19:02 +0800] [2634] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 60, in <module>
+    @app.route('/')
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/app.py", line 198, in response
+    "in the {0}() route?".format(handler.__name__)
+ValueError: Required parameter `request` missing in the hello_world() route?
+[2020-08-04 10:19:02 +0800] [2634] [INFO] Worker exiting (pid: 2634)
+[2020-08-04 10:19:02 +0800] [2635] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 60, in <module>
+    @app.route('/')
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/app.py", line 198, in response
+    "in the {0}() route?".format(handler.__name__)
+ValueError: Required parameter `request` missing in the hello_world() route?
+[2020-08-04 10:19:02 +0800] [2635] [INFO] Worker exiting (pid: 2635)
+[2020-08-04 10:19:02 +0800] [2636] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/sanic/worker.py", line 51, in init_process
+    super().init_process()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/Users/dong/Desktop/venv/pym/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/Users/dong/Desktop/MiAstro/sanic_server.py", line 36, in <module>
+    rds.init_app(app)
+  File "/Users/dong/Desktop/MiAstro/database/redis/aio_redis.py", line 101, in init_app
+    print("host %s port %s dbname %s passwd %s " % (host, port, dbname, passwd))
+BrokenPipeError: [Errno 32] Broken pipe
+[2020-08-04 10:19:02 +0800] [2636] [INFO] Worker exiting (pid: 2636)
+[2020-08-04 10:19:10 +0800] [2646] [INFO] Starting gunicorn 20.0.4
+[2020-08-04 10:19:10 +0800] [2646] [INFO] Listening at: http://0.0.0.0:8001 (2646)
+[2020-08-04 10:19:10 +0800] [2646] [INFO] Using worker: sanic.worker.GunicornWorker
+[2020-08-04 10:19:10 +0800] [2650] [INFO] Booting worker with pid: 2650
+[2020-08-04 10:19:10 +0800] [2651] [INFO] Booting worker with pid: 2651
+[2020-08-04 10:19:10 +0800] [2652] [INFO] Booting worker with pid: 2652
+[2020-08-04 10:19:10 +0800] [2653] [INFO] Booting worker with pid: 2653
+[2020-08-04 10:25:32 +0800] [2646] [INFO] Handling signal: int
+[2020-08-04 10:25:32 +0800] [2650] [INFO] Stopping server: 2650, connections: 0
+[2020-08-04 10:25:32 +0800] [2650] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:25:32 +0800] [2650] [INFO] Worker exiting (pid: 2650)
+[2020-08-04 10:25:32 +0800] [2652] [INFO] Stopping server: 2652, connections: 0
+[2020-08-04 10:25:32 +0800] [2652] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:25:32 +0800] [2652] [INFO] Worker exiting (pid: 2652)
+[2020-08-04 10:25:32 +0800] [2651] [INFO] Stopping server: 2651, connections: 0
+[2020-08-04 10:25:32 +0800] [2651] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:25:32 +0800] [2651] [INFO] Worker exiting (pid: 2651)
+[2020-08-04 10:25:32 +0800] [2653] [INFO] Stopping server: 2653, connections: 0
+[2020-08-04 10:25:32 +0800] [2653] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:25:32 +0800] [2653] [INFO] Worker exiting (pid: 2653)
+[2020-08-04 10:25:32 +0800] [2646] [INFO] Shutting down: Master
+[2020-08-04 10:25:34 +0800] [2872] [INFO] Starting gunicorn 20.0.4
+[2020-08-04 10:25:34 +0800] [2872] [INFO] Listening at: http://0.0.0.0:8001 (2872)
+[2020-08-04 10:25:34 +0800] [2872] [INFO] Using worker: sanic.worker.GunicornWorker
+[2020-08-04 10:25:34 +0800] [2876] [INFO] Booting worker with pid: 2876
+[2020-08-04 10:25:34 +0800] [2877] [INFO] Booting worker with pid: 2877
+[2020-08-04 10:25:34 +0800] [2878] [INFO] Booting worker with pid: 2878
+[2020-08-04 10:25:34 +0800] [2879] [INFO] Booting worker with pid: 2879
+[2020-08-04 10:26:06 +0800] [2872] [INFO] Handling signal: int
+[2020-08-04 10:26:06 +0800] [2876] [INFO] Stopping server: 2876, connections: 0
+[2020-08-04 10:26:06 +0800] [2876] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:26:06 +0800] [2876] [INFO] Worker exiting (pid: 2876)
+[2020-08-04 10:26:06 +0800] [2877] [INFO] Stopping server: 2877, connections: 0
+[2020-08-04 10:26:06 +0800] [2877] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:26:06 +0800] [2877] [INFO] Worker exiting (pid: 2877)
+[2020-08-04 10:26:07 +0800] [2879] [INFO] Stopping server: 2879, connections: 0
+[2020-08-04 10:26:07 +0800] [2878] [INFO] Stopping server: 2878, connections: 0
+[2020-08-04 10:26:07 +0800] [2878] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:26:07 +0800] [2879] [INFO] Error while closing socket [Errno 9] Bad file descriptor
+[2020-08-04 10:26:07 +0800] [2878] [INFO] Worker exiting (pid: 2878)
+[2020-08-04 10:26:07 +0800] [2879] [INFO] Worker exiting (pid: 2879)
+[2020-08-04 10:26:07 +0800] [2872] [INFO] Shutting down: Master

@@ -19,11 +19,11 @@ class MotorBase:
     _collection = {}
     env_data = os.environ
     MONGODB = dict(
-        MONGO_HOST=env_data.get("ACLIENTS_MONGO_HOST"),
-        MONGO_PORT=int(env_data.get("ACLIENTS_MONGO_PORT")),
+        MONGO_HOST=env_data.get("ACLIENTS_MONGO_HOST","127.0.0.1"),
+        MONGO_PORT=int(env_data.get("ACLIENTS_MONGO_PORT","27017")),
         MONGO_USERNAME=env_data.get("ACLIENTS_MONGO_USERNAME"),
         MONGO_PASSWORD=env_data.get("ACLIENTS_MONGO_PASSWD"),
-        DATABASE=env_data.get("ACLIENTS_MONGO_DBNAME"),
+        DATABASE=env_data.get("ACLIENTS_MONGO_DBNAME","local"),
     )
 
     def __init__(self, loop=None):
