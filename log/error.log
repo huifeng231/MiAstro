@@ -10637,3 +10637,10 @@ BrokenPipeError: [Errno 32] Broken pipe
 [2020-08-04 10:26:07 +0800] [2878] [INFO] Worker exiting (pid: 2878)
 [2020-08-04 10:26:07 +0800] [2879] [INFO] Worker exiting (pid: 2879)
 [2020-08-04 10:26:07 +0800] [2872] [INFO] Shutting down: Master
+[2020-08-06 17:40:45 +0800] [17838] [INFO] Starting gunicorn 20.0.4
+[2020-08-06 17:40:45 +0800] [17838] [INFO] Listening at: http://0.0.0.0:8001 (17838)
+[2020-08-06 17:40:45 +0800] [17838] [INFO] Using worker: sanic.worker.GunicornWorker
+[2020-08-06 17:40:45 +0800] [17843] [INFO] Booting worker with pid: 17843
+[2020-08-06 17:40:45 +0800] [17845] [INFO] Booting worker with pid: 17845
+[2020-08-06 17:40:45 +0800] [17846] [INFO] Booting worker with pid: 17846
+[2020-08-06 17:40:45 +0800] [17847] [INFO] Booting worker with pid: 17847
