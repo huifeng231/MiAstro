@@ -7,7 +7,7 @@ os.environ['MODE'] = 'PRO'
 WORKERS = os.getenv('WORKERS', 4)
 TIMEOUT = os.getenv('TIMEOUT', 20)
 
-bind = '0.0.0.0:8001'
+bind = '0.0.0.0:8000'
 backlog = 2048
 
 workers = WORKERS
