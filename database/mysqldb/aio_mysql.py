@@ -83,8 +83,8 @@ class AIOMysqlClient(object):
         port = port or app.config.get("ACLIENTS_MYSQL_PORT", None) or self.port
         dbname = dbname or app.config.get("ACLIENTS_MYSQL_DBNAME", None) or self.dbname
         pool_size = pool_size or app.config.get("ACLIENTS_MYSQL_POOL_SIZE", None) or self.pool_size
-        message = kwargs.get("message") or app.config.get("ACLIENTS_MYSQL_MESSAGE", None) or self.message
-        use_zh = kwargs.get("use_zh") or app.config.get("ACLIENTS_MYSQL_MSGZH", None) or self.use_zh
+        message = self.message
+        use_zh = self.use_zh
 
         passwd = passwd if passwd is None else str(passwd)
         self.message = verify_message(mysql_msg, message)

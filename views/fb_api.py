@@ -2,25 +2,58 @@
 import time
 
 import json
+import traceback
 from bson import ObjectId
 from sanic import Blueprint
 from sanic.response import text
 from sanic import response
 from config.log_conf import get_logger
 from database.mongodb import MotorBase
+from database.mysqldb.aio_mysql import db_sql
+from database.redis.aio_redis import rds
 from utils.cryptoFunc import decode_base64
 from utils.decorators import auth_params
 from utils.utils import json_encoder, parse_user_ip
+
 
 user_bp = Blueprint('fb_blueprint', url_prefix='/api')
 
 logger = get_logger("root")
 
 
-@user_bp.route("/foo")
+@user_bp.route("/foo",methods=['GET'])
+async def foo(request):
+    name = request.args.get("name")
+    return response.json({"msg": "success", "status": 200, "name": name})
+
+
+#test redis
+@user_bp.route("/bar",methods=['POST'])
+async def foo(request):
+    age = request.json.get("age")
+    aa = await rds.get_list_data("bb")
+
+    return response.json({"msg": "success", "status": 200, "age": age,"as":aa})
+
+
+@user_bp.route("/test/mongo",methods=['POST'])
+async def foo(request):
+    data = json.loads(request.body)
+    # motor_db = motor_base.get_db(db="local")
+    db = motor_base.get_collection(db_name="local",collection="test")
+
+    await db.insert_one(data)
+
+    return response.json({"msg": "success", "status": 200})
+
+
+@user_bp.route("/test/mysql",methods=['POST'])
 async def foo(request):
 
-    return response.json({"msg": "hi from blueprint", "status": 200, "data": None})
+    result = await db_sql.find_one(sql="SELECT * FROM zch_test.popularizer")
+
+    return text(result)
+
 
 
 @user_bp.listener('before_server_start')

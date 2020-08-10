@@ -8,6 +8,7 @@ from sanic_scheduler import SanicScheduler
 from database.mongodb import MotorBase
 from database.redis import redis_handle
 from database.redis.aio_redis import rds
+from database.mysqldb.aio_mysql import db_sql
 from views import user_bp
 from config import *
 from sanic.response import text
@@ -29,12 +30,22 @@ app.config.update(
         'ACLIENTS_MONGO_PORT': int(environ_data.get("ACLIENTS_MONGO_PORT", "27017")),
         'ACLIENTS_MONGO_DBNAME': environ_data.get("ACLIENTS_MONGO_DBNAME", "local"),
         'ACLIENTS_MONGO_POOL_SIZE': 50,
+
+        'ACLIENTS_MYSQL_HOST': environ_data.get("ACLIENTS_MONGO_HOST", "127.0.0.1"),
+        'ACLIENTS_MYSQL_PASSWD': environ_data.get("ACLIENTS_MONGO_PASSWD","flower0231"),
+        'ACLIENTS_MYSQL_USERNAME': environ_data.get("ACLIENTS_MONGO_USERNAME","root"),
+        'ACLIENTS_MYSQL_PORT': int(environ_data.get("ACLIENTS_MONGO_PORT", "3306")),
+        'ACLIENTS_MYSQL_DBNAME': environ_data.get("ACLIENTS_MONGO_DBNAME", "zch_test"),
+        'ACLIENTS_MYSQL_POOL_SIZE': 50,
     }
 )
 
 # 初始化redis
 rds.init_app(app)
 app.rds = rds
+
+db_sql.init_app(app)
+app.db_sql = db_sql
 
 # 初始化aiohttp
 requests = AIOHttpClient()
