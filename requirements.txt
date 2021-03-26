@@ -15,6 +15,6 @@ uvloop==0.12.2
 aiomysql==0.0.20
 aclients==1.0.0b40
 beautifulsoup4==4.8.1
-PyYAML==5.1.2
+PyYAML==5.4
 gunicorn
 honcho
